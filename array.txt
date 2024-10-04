@@ -1,0 +1,19 @@
+//Array Input/Output
+
+#include <stdio.h>
+
+int main(void)
+{
+	int array[10];
+	printf("Enter the 10 elements\n");
+	for (int i = 0; i < 10; i++)
+	{
+		scanf("%d", &array[i]);
+	}
+
+	printf("The values in the array are: \n");
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%d\t", array[i]);
+	}
+}
